@@ -1,3 +1,3 @@
 # Tp.html.css-SNIR
-Je debute ne jugez pas
+Je debute ne juge pas
 TP a rendre 
