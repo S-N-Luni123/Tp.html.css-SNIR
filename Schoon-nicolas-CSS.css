@@ -1,0 +1,137 @@
+body { /*page entiere*/
+    background-color: teal;
+}
+
+
+.header { /*partie haute de la pagge*/
+    background-color: darkgray;
+    color:#5C2319;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-bottom: 50px;
+    
+}
+
+
+
+.menu {/*bar de navigation menu*/
+    z-index: 10;
+    background-color: #694C46;
+    color: white;
+    justify-content: center;
+    margin-left: 350px;
+    margin-right: 350px;
+    position: absolute;
+    display: flex;
+    width: 1147px;
+    font-size: 20px;
+    top: 250px;
+}
+.menu li {
+    list-style-type: none;
+}
+.menu a {
+    display: block;
+    min-width: 120px;
+
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.4rem 0;
+    text-align: center;
+    text-decoration: none;
+    word-spacing: 20px;
+}
+
+
+
+.section { /*le milieu de la page*/
+    z-index: 5;
+    background-color: lightgray;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: -100;
+    padding-top: 100px;
+    padding-bottom: -50px;
+    position: relative;
+    top: -5px;
+    max-height: 800px;
+}
+
+
+
+.aside { /*partie gauche de la page*/
+    color:#5C2319;
+    background-image: #F0FFF0;
+    text-decoration: underline;
+    width: 300px;
+    border-right: dotted;
+    position: relative;
+    right: -15px;
+}
+
+
+
+.article { /*patie droite de la page*/
+    color: black;
+    position: relative;
+    width: 710px;
+    top: -715px;
+    right: -350px;
+    
+}
+.image { /*image java*/
+    float: left;
+    box-shadow: 5px 5px 20px black;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+
+.footer { /*bas de la page*/
+    z-index: 10;
+    background-color: #694C46;
+    color: white;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-top: 10px;
+    position: relative;
+    top: -50px;
+    max-height: 800px;
+    font-size: 18px;
+}
+.colone1 { /*les colones du bas de la page*/
+    position: relative;
+    left: -240px;
+}
+.colone2 {
+    position: absolute;
+    top: 10px;
+    right: 800px;
+}
+.colone3 {
+    position: absolute;
+    top: 10px;
+    right: 400px;
+}
+
+
+
+h1 { /*modifications des titres*/
+    font-size: 50px;
+}
+
+h3 {
+    color: #5C2319;
+}
+
+h4 {
+    text-decoration: underline;
+}
+a {
+    text-decoration: underline;
+}
